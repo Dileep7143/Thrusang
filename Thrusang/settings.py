@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-7pzl%#jhk3rr%kw%s5^arnvx2xl6ls@74^&apqk43*02b^$u!n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Thrusang.herokuapp.com']
+ALLOWED_HOSTS = ['thrusang2.herokuapp.com']
 
 
 # Application definition
@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'Thrusang.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dcglp2ovdqvdd0',
-        'USER': 'mnrvxxohluzjnn',
-        'PASSWORD': '17398fba006a2d6cf6d138e09b0dc581861a94738857343e0712235ad9b50cf4',
-        'HOST': 'ec2-44-192-245-97.compute-1.amazonaws.com',
+        'NAME': 'd8gr582gqthqpa',
+        'USER': 'utmxdqfunudfui',
+        'PASSWORD': '9569c121627f823b29fc10fb91d41f61be64f7143f097ed17c15655a3126729c',
+        'HOST': 'ec2-34-206-148-196.compute-1.amazonaws.com',
         'PORT':'5432',
     }
 }
